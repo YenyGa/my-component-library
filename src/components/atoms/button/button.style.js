@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {defaultTheme, typeScale} from "../../../utils";
+import { typeScale } from "../../../utils";
 import { applyStyleModifiers } from "styled-components-modifiers";
 
 const BUTTON_MODIFIERS = {
@@ -12,16 +12,16 @@ const BUTTON_MODIFIERS = {
     padding: 16px 24px;
   `,
     warning: () => `
-    background-color: ${defaultTheme.status.warningColor};
-    border-color: ${defaultTheme.status.warningColorHover};
-    color: ${defaultTheme.textColorInverted};
+    background-color: ${props => props.theme.status.warningColor};
+    border-color: ${props => props.theme.status.warningColorHover};
+    color: ${props => props.theme.textColorInverted};
     
     &:hover, &:active {
-      background-color: ${defaultTheme.status.warningColorHover};
+      background-color: ${props => props.theme.status.warningColorHover};
     }
     &:focus {
-      background-color: ${defaultTheme.status.warningColorHover};
-      outline: 3px solid ${defaultTheme.status.warningColorHover};
+      background-color: ${props => props.theme.status.warningColorHover};
+      outline: 3px solid ${props => props.theme.status.warningColorHover};
       outline-offset: 2px;
     }
   `,
@@ -30,33 +30,33 @@ const BUTTON_MODIFIERS = {
 export const BaseButton = styled.button`
   padding: 13px 30px;
   font-size: ${typeScale.paragraph};
-  border: 1px solid ${defaultTheme.primaryBorderColor};
+  border: 1px solid ${props => props.theme.primaryBorderColor};
   border-radius: 26px;
   min-width: 100px;
   cursor: pointer;
-  font-family: ${defaultTheme.primaryFont};
+  font-family: ${props => props.theme.primaryFont};
   transition: background-color 0.2s linear, color 0.2s linear;
   
   &:hover {
-    background-color: ${defaultTheme.primaryHoverColor};
-    color: ${defaultTheme.textColorOnPrimary};
+    background-color: ${props => props.theme.primaryHoverColor};
+    color: ${props => props.theme.textColorOnPrimary};
   }
   
   &:active {
-    background-color: ${defaultTheme.primaryActiveColor};
-    color: ${defaultTheme.textColorOnPrimary};
+    background-color: ${props => props.theme.primaryActiveColor};
+    color: ${props => props.theme.textColorOnPrimary};
   }
   
   &:focus {
-    background-color: ${defaultTheme.primaryHoverColor};
-    color: ${defaultTheme.textColorOnPrimary};
+    background-color: ${props => props.theme.primaryHoverColor};
+    color: ${props => props.theme.textColorOnPrimary};
     outline-offset: 2px;
   }
   
   &:disabled {
-    background-color: ${defaultTheme.disabledColor};
+    background-color: ${props => props.theme.disabledColor};
     border: none;
-    color: ${defaultTheme.disabledTextColor};
+    color: ${props => props.theme.disabledTextColor};
     cursor: not-allowed;
   }
   
@@ -64,15 +64,15 @@ export const BaseButton = styled.button`
 `;
 
 export const PrimaryButton = styled(BaseButton)`
-  background-color: ${defaultTheme.primaryColor};
-  color: ${defaultTheme.textColorOnPrimary};
+  background-color: ${props => props.theme.primaryColor};
+  color: ${props => props.theme.textColorOnPrimary};
   
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
 
 export const SecondaryButton = styled(BaseButton)`
   background-color: transparent;
-  color: ${defaultTheme.textColorOnSecondary};
+  color: ${props => props.theme.textColorOnSecondary};
   
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
@@ -80,25 +80,25 @@ export const SecondaryButton = styled(BaseButton)`
 export const TertiaryButton = styled(BaseButton)`
   background-color: transparent;
   border: none;
-  color: ${defaultTheme.textColorOnSecondary};
+  color: ${props => props.theme.textColorOnSecondary};
     
   &:hover {
-    color: ${defaultTheme.textColorOnTertiary};
+    color: ${props => props.theme.textColorOnTertiary};
     background-color: transparent;
   }
   &:active {
-    color: ${defaultTheme.textColorOnTertiary};
+    color: ${props => props.theme.textColorOnTertiary};
     background-color: transparent;
   }
   &:focus {
-    color: ${defaultTheme.textColorOnTertiary};
+    color: ${props => props.theme.textColorOnTertiary};
     background-color: transparent;
     outline-offset: 2px;
   }
   &:disabled {
     background-color: transparent;
-    border: ${defaultTheme.textColorOnPrimary};
-    color: ${defaultTheme.disabledTextColor};
+    border: ${props => props.theme.textColorOnPrimary};
+    color: ${props => props.theme.disabledTextColor};
     cursor: not-allowed;
   }
   
