@@ -2,10 +2,11 @@ import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import {darkTheme, defaultTheme, GlobalStyle} from "./utils";
 import {ThemeProvider} from "styled-components";
-import {SignUpModal} from "./components/organisms/modal/modal.style";
+import {SignInModal} from "./components/organisms/modal/modal.style";
 
 const App = () => {
   const [useDarkTheme, setUseDarkTheme] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   return (
     <ThemeProvider theme={useDarkTheme ? darkTheme : defaultTheme}>
       <button
@@ -34,6 +35,12 @@ const App = () => {
       >
         Default theme
       </button>
+      <button
+        style={{ margin: "0 16px 24px", padding: "8px", background: "none", cursor: "pointer"}}
+        onClick={() => setShowModal(true)}
+      >
+        Show modal
+      </button>
       <div
         style={{
             background: useDarkTheme
@@ -46,7 +53,7 @@ const App = () => {
             justifyContent: "space-around"
         }}
       >
-          <SignUpModal />
+        <SignInModal showModal={showModal} setShowModal={setShowModal}/>
       </div>
       <GlobalStyle />
     </ThemeProvider>
