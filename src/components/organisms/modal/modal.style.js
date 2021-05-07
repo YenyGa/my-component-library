@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {typeScale} from "../../../utils";
 import React from "react";
-import {PrimaryButton, SecondaryButton} from "../../atoms/button/button.style";
+import {PrimaryButton, SecondaryButton} from "../../atoms/button/buttons";
 import {Illustrations} from "../../../assets/illustrations";
 import {Close} from "../../../assets/icons";
 import {animated, useSpring} from "react-spring";
