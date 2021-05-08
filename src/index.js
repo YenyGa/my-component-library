@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import {darkTheme, defaultTheme, GlobalStyle} from "./utils";
 import {ThemeProvider} from "styled-components";
-import {SignInModal} from "./components/organisms/modal/modal.style";
+import {SignInModal} from "./components/organisms/modal/modal";
 
 const App = () => {
   const [useDarkTheme, setUseDarkTheme] = useState(false);
