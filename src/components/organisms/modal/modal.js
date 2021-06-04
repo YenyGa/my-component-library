@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import {typeScale} from "../../../utils";
 import React from "react";
-import {PrimaryButton, SecondaryButton} from "../../atoms/button/buttons";
+import {PrimaryButton} from "../../atoms/button/buttons";
 import {Illustrations} from "../../../assets/illustrations";
 import {Close} from "../../../assets/icons";
 import {animated, useSpring} from "react-spring";
-import {EmailInput, PasswordInput} from "../../atoms/textFields/textFields";
+import {SignInForm} from "../../molecules/forms/signInForm";
 
 export const ModalWrapper = styled.div`
   width: 800px;
@@ -76,22 +76,17 @@ export const SignUpModal = ({ showModal, setShowModal }) => {
     );
 };
 
-export const SignInModal = ({ showModal, setShowModal }) => (
-    <animated.div style={useSpring(getAnimation(showModal))}>
-        <ColumnModalWrapper>
-            <div>
-                <ModalHeader>Sign In</ModalHeader>
-                <EmailInput label="Email" placeholder="emmabostian@gmail.com" />
-                <PasswordInput label="Password" />
-                <SecondaryButton style={{ margin: "16px 16px 0 0" }}>
-                    Sign Up
-                </SecondaryButton>
-                <PrimaryButton>Sign In</PrimaryButton>
-            </div>
-            <img style={{width: "42%"}} src={Illustrations.SignIn} alt="Sign in to your account" />
-            <CloseModalButton onClick={() => setShowModal(false)}>
-                <Close />
-            </CloseModalButton>
-        </ColumnModalWrapper>
-    </animated.div>
-);
+export const SignInModal = ({ showModal, setShowModal, onSignUp }) => {
+    const signInEvent = () => console.log('signedIn');
+    return (
+        <animated.div style={useSpring(getAnimation(showModal))}>
+            <ColumnModalWrapper>
+                <SignInForm title='Sign In' signIn={signInEvent} signUp={onSignUp}/>
+                <img style={{width: "42%"}} src={Illustrations.SignIn} alt="Sign in to your account" />
+                <CloseModalButton onClick={() => setShowModal(false)}>
+                    <Close />
+                </CloseModalButton>
+            </ColumnModalWrapper>
+        </animated.div>
+    );
+};
