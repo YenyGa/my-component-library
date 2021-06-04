@@ -1,26 +1,19 @@
 {
   "files": {
-    "0.86cfaa02.iframe.bundle.js": "./0.86cfaa02.iframe.bundle.js",
-    "main.js": "./main.64aa2637.iframe.bundle.js",
-    "runtime~main.js": "./runtime~main.892795b6.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.5b21547d.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.5b21547d.iframe.bundle.js.map",
-    "4.f444afe1.iframe.bundle.js": "./4.f444afe1.iframe.bundle.js",
-    "4.f444afe1.iframe.bundle.js.map": "./4.f444afe1.iframe.bundle.js.map",
-    "5.9f8e68e2.iframe.bundle.js": "./5.9f8e68e2.iframe.bundle.js",
-    "6.42cfa70f.iframe.bundle.js": "./6.42cfa70f.iframe.bundle.js",
-    "6.42cfa70f.iframe.bundle.js.map": "./6.42cfa70f.iframe.bundle.js.map",
-    "7.5d99af1b.iframe.bundle.js": "./7.5d99af1b.iframe.bundle.js",
-    "4.f444afe1.iframe.bundle.js.LICENSE.txt": "./4.f444afe1.iframe.bundle.js.LICENSE.txt",
-    "6.42cfa70f.iframe.bundle.js.LICENSE.txt": "./6.42cfa70f.iframe.bundle.js.LICENSE.txt",
-    "iframe.html": "./iframe.html",
-    "static/media/SignIn.8c2fbd22.svg": "./static/media/SignIn.8c2fbd22.svg",
-    "static/media/SignUp.a12b5b74.svg": "./static/media/SignUp.a12b5b74.svg",
-    "vendors~main.5b21547d.iframe.bundle.js.LICENSE.txt": "./vendors~main.5b21547d.iframe.bundle.js.LICENSE.txt"
+    "main.js": "/my-component-library/static/js/main.0995ba2f.chunk.js",
+    "main.js.map": "/my-component-library/static/js/main.0995ba2f.chunk.js.map",
+    "runtime-main.js": "/my-component-library/static/js/runtime-main.d6066c4e.js",
+    "runtime-main.js.map": "/my-component-library/static/js/runtime-main.d6066c4e.js.map",
+    "static/js/2.dcb3dea7.chunk.js": "/my-component-library/static/js/2.dcb3dea7.chunk.js",
+    "static/js/2.dcb3dea7.chunk.js.map": "/my-component-library/static/js/2.dcb3dea7.chunk.js.map",
+    "index.html": "/my-component-library/index.html",
+    "static/js/2.dcb3dea7.chunk.js.LICENSE.txt": "/my-component-library/static/js/2.dcb3dea7.chunk.js.LICENSE.txt",
+    "static/media/SignIn.8c2fbd22.svg": "/my-component-library/static/media/SignIn.8c2fbd22.svg",
+    "static/media/SignUp.a12b5b74.svg": "/my-component-library/static/media/SignUp.a12b5b74.svg"
   },
   "entrypoints": [
-    "runtime~main.892795b6.iframe.bundle.js",
-    "vendors~main.5b21547d.iframe.bundle.js",
-    "main.64aa2637.iframe.bundle.js"
+    "static/js/runtime-main.d6066c4e.js",
+    "static/js/2.dcb3dea7.chunk.js",
+    "static/js/main.0995ba2f.chunk.js"
   ]
 }
