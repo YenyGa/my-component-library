@@ -1,0 +1,23 @@
+import {Meta, Preview, Story} from "@storybook/addon-docs/blocks";
+import {SignInForm} from "./signInForm";
+import {action} from "@storybook/addon-actions";
+
+<Meta title="Molecules/Forms" component={SignInForm}/>
+
+# Forms
+
+Contain several text fields and buttons to allow the user to enter some information and trigger an action with it.
+
+## Usage
+
+Use forms to request information to the users and do something with that information.
+
+## Sign In Modal
+
+The SignInForm is used to allow the users to enter the necessary information for them to enter in to their account.
+
+<Preview withToolbar>
+    <Story name="signIn">
+        <SignInForm signIn={action('signed-in')} signUp={action('signed-up')}/>
+    </Story>
+</Preview>
