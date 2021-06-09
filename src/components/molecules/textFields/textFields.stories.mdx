@@ -1,7 +1,7 @@
 import {Meta, Preview, Story} from "@storybook/addon-docs/blocks";
 import {EmailInput, PasswordInput} from "./textFields";
 
-<Meta title="Atoms/TextFields" component={EmailInput} />
+<Meta title="Molecules/TextFields" component={EmailInput} />
 
 # TextFields
 
@@ -13,7 +13,7 @@ TextFields are used to allow the user to enter information
 
 ## Email Inputs
 
-Email Inputs are used to allow the user to enter emails.
+EmailInputs are used to allow the user to enter emails.
 
 <Preview withToolbar>
   <Story name="email">
@@ -23,8 +23,10 @@ Email Inputs are used to allow the user to enter emails.
 
 ## Password Inputs
 
-EmailInputs are used to allow the user to enter passwords.
+PasswordInputs are used to allow the user to enter passwords.
 
-<Story name="password">
-  <PasswordInput label="Password" />
-</Story>
+<Preview withToolbar>
+  <Story name="password">
+    <PasswordInput label="Password" />
+  </Story>
+</Preview>

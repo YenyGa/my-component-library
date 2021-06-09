@@ -1,5 +1,5 @@
 import React from "react";
-import {EmailInput, PasswordInput} from "../../atoms/textFields/textFields";
+import {EmailInput, PasswordInput} from "../../molecules/textFields/textFields";
 import {PrimaryButton, SecondaryButton} from "../../atoms/button/buttons";
 import styled from "styled-components";
 import {typeScale} from "../../../utils";
@@ -9,7 +9,7 @@ const Title = styled.h3`
 `;
 
 export const SignInForm = ({title = 'form', signIn, signUp}) => (
-  <div>
+  <form>
     <Title>{title}</Title>
     <EmailInput label="Email" placeholder="yeny.garcia@gmail.com" />
     <PasswordInput label="Password" />
@@ -19,5 +19,5 @@ export const SignInForm = ({title = 'form', signIn, signUp}) => (
     <PrimaryButton onClick={signIn}>
         Sign In
     </PrimaryButton>
-  </div>
+  </form>
 );

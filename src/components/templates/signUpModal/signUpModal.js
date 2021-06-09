@@ -5,7 +5,6 @@ import {PrimaryButton} from "../../atoms/button/buttons";
 import {Illustrations} from "../../../assets/illustrations";
 import {Close} from "../../../assets/icons";
 import {animated, useSpring} from "react-spring";
-import {SignInForm} from "../../molecules/forms/signInForm";
 
 export const ModalWrapper = styled.div`
   width: 800px;
@@ -44,11 +43,6 @@ const CloseModalButton = styled.button`
   padding: 0;
 `;
 
-const ColumnModalWrapper = styled(ModalWrapper)`
-  flex-direction: row;
-  justify-content: space-around;
-`;
-
 const getAnimation = showModal => {
     return {
         opacity: showModal ? 1 : 0,
@@ -72,21 +66,6 @@ export const SignUpModal = ({ showModal, setShowModal }) => {
                     <Close/>
                 </CloseModalButton>
             </ModalWrapper>
-        </animated.div>
-    );
-};
-
-export const SignInModal = ({ showModal, setShowModal, onSignUp }) => {
-    const signInEvent = () => console.log('signedIn');
-    return (
-        <animated.div style={useSpring(getAnimation(showModal))}>
-            <ColumnModalWrapper>
-                <SignInForm title='Sign In' signIn={signInEvent} signUp={onSignUp}/>
-                <img style={{width: "42%"}} src={Illustrations.SignIn} alt="Sign in to your account" />
-                <CloseModalButton onClick={() => setShowModal(false)}>
-                    <Close />
-                </CloseModalButton>
-            </ColumnModalWrapper>
         </animated.div>
     );
 };
