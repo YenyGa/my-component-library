@@ -10,6 +10,7 @@ export const ModalWrapper = styled.div`
   display: flex;
   position: relative;
   border-radius: 2px;
+  width: fit-content;
 `;
 
 export const ChildrenWrapper = styled.div`
