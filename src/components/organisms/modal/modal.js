@@ -5,7 +5,7 @@ import {PrimaryButton} from "../../atoms/button/buttons";
 import {Illustrations} from "../../../assets/illustrations";
 import {Close} from "../../../assets/icons";
 import {animated, useSpring} from "react-spring";
-import {SignInForm} from "../../molecules/forms/signInForm";
+import {SignInForm} from "../forms/signInForm";
 
 export const ModalWrapper = styled.div`
   width: 800px;
