@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/YenyGa/my-component-library/compare/v1.7.0...v1.7.1) (2021-06-13)
+
+
+### Bug Fixes
+
+* **forms:** refactored forms component. It is now an organism instead of a molecule ([43cd512](https://github.com/YenyGa/my-component-library/commit/43cd512c2d9210fb09d42ade30a1199b8b4a5f66))
+
 ## [1.7.0](https://github.com/YenyGa/my-component-library/compare/v1.6.0...v1.7.0) (2021-06-13)
 
 
