@@ -1,7 +1,7 @@
 {
   "homepage": "http://yenyga.github.io/my-component-library",
   "name": "my-component-library",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/YenyGa/my-component-library/compare/v1.5.0...v1.6.0) (2021-06-13)
+
+
+### Features
+
+* **modal atoms:** created modal component ([e03a602](https://github.com/YenyGa/my-component-library/commit/e03a602839bd739707dfec6bc44b4957c7f099c9))
+
 ## [1.5.0](https://github.com/YenyGa/my-component-library/compare/v1.4.0...v1.5.0) (2021-06-13)
 
 
