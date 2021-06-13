@@ -1,8 +1,8 @@
 import React from "react";
-import {EmailInput, PasswordInput} from "../../atoms/textFields/textFields";
 import {PrimaryButton, SecondaryButton} from "../../atoms/button/buttons";
 import styled from "styled-components";
 import {typeScale} from "../../../utils";
+import {EmailInput, PasswordInput} from "../textFields/textFields";
 
 const Title = styled.h3`
   font-size: ${typeScale.header3};
