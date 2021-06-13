@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/YenyGa/my-component-library/compare/v1.6.0...v1.7.0) (2021-06-13)
+
+
+### Features
+
+* **textfields molecule:** created textField component ([8f3ccc0](https://github.com/YenyGa/my-component-library/commit/8f3ccc06eb7a7e6b3a6cad2dd3c070ab46bc77b9))
+
 ## [1.6.0](https://github.com/YenyGa/my-component-library/compare/v1.5.0...v1.6.0) (2021-06-13)
 
 
