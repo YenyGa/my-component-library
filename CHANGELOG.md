@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/YenyGa/my-component-library/compare/v1.2.0...v1.3.0) (2021-06-13)
+
+
+### Features
+
+* **button atoms:** creation of the button components ([b8303c9](https://github.com/YenyGa/my-component-library/commit/b8303c9fced576d340bbf9300ad9cb1a07216df3))
+* **github pages:** configured scripts to deploy on github pages ([c8d4cf8](https://github.com/YenyGa/my-component-library/commit/c8d4cf8cb78be9f3b919dbaf3c9655564e0664cc))
+
 ## [1.2.0](https://github.com/YenyGa/my-component-library/compare/v1.1.0...v1.2.0) (2021-06-04)
 
 
