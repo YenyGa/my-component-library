@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/YenyGa/my-component-library/compare/v1.4.0...v1.5.0) (2021-06-13)
+
+
+### Features
+
+* **labels:** created label components ([95e2c72](https://github.com/YenyGa/my-component-library/commit/95e2c72c4a25f3a81dba87ff51c22dedb433b261))
+
 ## [1.4.0](https://github.com/YenyGa/my-component-library/compare/v1.3.0...v1.4.0) (2021-06-13)
 
 
