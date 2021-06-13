@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/YenyGa/my-component-library/compare/v1.3.0...v1.4.0) (2021-06-13)
+
+
+### Features
+
+* **input atoms:** created input components ([e1be77f](https://github.com/YenyGa/my-component-library/commit/e1be77fcebc694fc444531d2e861e8078af210bf))
+
 ## [1.3.0](https://github.com/YenyGa/my-component-library/compare/v1.2.0...v1.3.0) (2021-06-13)
 
 
