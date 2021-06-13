@@ -1,0 +1,16 @@
+import {Meta, Preview, Story} from "@storybook/addon-docs/blocks";
+import {boolean} from "@storybook/addon-knobs";
+import {SignInModal} from "./signInModal";
+import {action} from "@storybook/addon-actions";
+
+<Meta title="Templates/SignInModal" component={SignInModal} />
+
+# Sign In Modal
+
+The SignInModal is used to prompt the user to sign in to their account.
+
+<Preview withToolbar>
+    <Story name="signIn">
+        <SignInModal showModal={boolean("Show Modal", true)} setShowModal={action('modal-closed')} onSignUp={action('onSingUp')}/>
+    </Story>
+</Preview>
