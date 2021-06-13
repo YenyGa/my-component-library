@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/YenyGa/my-component-library/compare/v1.8.0...v1.8.1) (2021-06-13)
+
+
+### Bug Fixes
+
+* **modals:** adjusted modal width to follow the contents width ([9bb5663](https://github.com/YenyGa/my-component-library/commit/9bb56638ba53f80ba7421721c841fcff2b5cdbe9))
+
 ## [1.8.0](https://github.com/YenyGa/my-component-library/compare/v1.7.1...v1.8.0) (2021-06-13)
 
 
