@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/YenyGa/my-component-library/compare/v1.9.0-alpha.0...v1.9.0) (2021-06-30)
+
+
+### Bug Fixes
+
+* **test.md:** fixed bug ([0afa8b1](https://github.com/YenyGa/my-component-library/commit/0afa8b14e2c0b73c2adec189675d6bdb17d09fb9))
+
+## [1.9.0-alpha.0](https://github.com/YenyGa/my-component-library/compare/v1.8.1...v1.9.0-alpha.0) (2021-06-29)
+
+
+### Features
+
+* **test:** this a test to showcase semver ([2d1eea0](https://github.com/YenyGa/my-component-library/commit/2d1eea020ea61c06e763d87d558d4a9b361588b4))
+
 ### [1.8.1](https://github.com/YenyGa/my-component-library/compare/v1.8.0...v1.8.1) (2021-06-13)
 
 
