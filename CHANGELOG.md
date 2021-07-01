@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/YenyGa/my-component-library/compare/v1.9.0...v2.0.0) (2021-07-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **breaking change test:** test
+
+### Features
+
+* **breaking change test:** this is a breaking change test ([b15dd01](https://github.com/YenyGa/my-component-library/commit/b15dd010e747be33e7323d8103d00f20dcc8e9a4))
+
+
+### Bug Fixes
+
+* **test:** test of bugfix ([903099d](https://github.com/YenyGa/my-component-library/commit/903099dd8896b2589a9797cabc8295ace219e650))
+
 ## [1.9.0](https://github.com/YenyGa/my-component-library/compare/v1.9.0-alpha.0...v1.9.0) (2021-06-30)
 
 
